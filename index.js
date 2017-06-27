@@ -113,8 +113,8 @@ restService.post('/hook', function (req, res) {
         }
 
         return res.json({
-            speech: 'Webhook input error',
-            displayText: 'Webhook input error',
+            speech: 'That may be beyond my abilities at the moment',
+            displayText: 'That may be beyond my abilities at the moment',
             source: 'apiai-webhook'
         });
     } catch (err) {
